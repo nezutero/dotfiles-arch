@@ -319,7 +319,7 @@ hl.bind(
 hl.bind(
     mainMod .. " + Print",
     hl.dsp.exec_cmd(
-        [[sh -c 'FILE="$HOME/pics/screenshots/$(date +%Y-%m-%d-%H-%M-%S).png" &&
+        [[sh -c 'FILE="$HOME/Pictures/screenshots/$(date +%Y-%m-%d-%H-%M-%S).png" &&
         grim -g "$(slurp)" "$FILE" &&
         dunstify -a "Screenshot" -u low -r 9002 -t 1500 "Screenshot Saved" "$FILE"']]
     )

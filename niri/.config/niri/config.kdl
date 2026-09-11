@@ -12,6 +12,7 @@ environment {
     QT_QPA_PLATFORMTHEME "qt5ct"
     XCURSOR_THEME "Adwaita"
     XCURSOR_SIZE "24"
+    PATH "/home/nezutero/.local/bin:/home/nezutero/.cargo/bin:/home/nezutero/go/bin:/home/nezutero/.bun/bin:/usr/local/sbin:/usr/local/bin:/usr/bin"
 }
 
 input {
@@ -70,7 +71,7 @@ spawn-at-startup "gammastep" "-O" "4000" "-P"
 spawn-at-startup "wl-paste" "--type" "text" "--watch" "cliphist" "store"
 spawn-at-startup "wl-paste" "--type" "image" "--watch" "cliphist" "store"
 spawn-at-startup "battery-notify.sh"
-spawn-at-startup "swaybg" "-i" "/home/nezutero/pics/walls/your_name_sky1.jpg" "-m" "fill"
+spawn-at-startup "swaybg" "-i" "/home/nezutero/Pictures/walls/your_name_sky1.jpg" "-m" "fill"
 spawn-at-startup "swayidle" "-w" \
     "timeout" "600" "brightnessctl -e4 -s set 25%" \
     "resume" "brightnessctl -r" \

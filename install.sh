@@ -40,7 +40,6 @@ yay -S --noconfirm \
 echo "Creating directories..."
 mkdir -p ~/projs
 mkdir -p ~/docs
-mkdir -p ~/pics/{walls,screenshots,webcam,backs,pfps}
 mkdir -p ~/videos/OBS
 
 echo "Installing Oh My Zsh..."
